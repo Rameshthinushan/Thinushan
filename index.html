@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/images/code.png">
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/plugins/jQuery/jquery-3.7.1.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/site.js" defer></script>
+  <title>Thinushan</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <span id="circle" class="circle"></span>
+    <div class="row">
+      <div class="col body__content">
+
+        <div class="row sticky-top">
+          <div class="col site__bg__grey">
+            <div class="align-items-center p-3 row">
+              <div class="col-8">
+                <img src="assets/images/code.png" alt="" height="30">
+              </div>
+              <div class="col d-flex">
+                <div class="w-75">
+                  <a 
+                    href="#home" 
+                    class="text-decoration-none site-color-orange" 
+                    id="nav-home"
+                    onclick="active('home', ['about', 'skill', 'experience', 'contact'])"
+                  >Home</a>
+                </div>
+                <div class="w-75">
+                  <a 
+                    href="#about" 
+                    class="text-decoration-none nav-text__color"
+                    id="nav-about"
+                    onclick="active('about', ['home', 'skill', 'experience', 'contact'])"
+                  >About</a>
+                </div>
+                <div class="w-75">
+                  <a 
+                    href="#skill" 
+                    class="text-decoration-none nav-text__color"
+                    id="nav-skill"
+                    onclick="active('skill', ['home', 'about', 'experience', 'contact'])"
+                  >Skill</a>
+                </div>
+                <div class="w-100">
+                  <a 
+                    href="#experience" 
+                    class="text-decoration-none nav-text__color"
+                    id="nav-experience"
+                    onclick="active('experience', ['home', 'about', 'skill', 'contact'])"
+                  >Experience</a>
+                </div>
+                <div class="w-100">
+                  <a 
+                    href="#contact" 
+                    class="text-decoration-none nav-text__color"
+                    id="nav-contact"
+                    onclick="active('contact', ['home', 'about', 'skill', 'experience'])"
+                  >Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row" id="home">
+          <div class="col site__bg__grey land__page_heigth">
+            <div class="row align-items-center">
+              <div class="col">
+                <div>
+                  <span class="text-white fs-3">I'M </span>
+                  <span class="site-color-orange inital__name fw-bold">
+                    Thinushan R
+                  </span>
+                </div>
+                <div class="fs-2 text-white wrapper">
+                  <span class="typing-demo">FullStack Developer</span>
+                </div>
+                <div class="mt-4">
+                  <button class="btn pb-3 pe-5 ps-5 pt-3 btn__downloard-cv">Downloard CV</button>
+                </div>
+              </div>
+              <div class="col">
+                <img 
+                  src="assets/images/removal.png" 
+                  alt="" 
+                  height="700"
+                  class="profile-image"
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="about">
+          <div class="col site__bg_dark_blue pt-5 pb-5">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5 pt-4"> 
+                <h1 class="site-color-orange">__Who I am</h1>
+                <div class="short__description text-white">Experienced full stack developer passionate about crafting innovative solutions. Skilled in both front-end and back-end technologies, eager to tackle new challenges</div>
+              </div> 
+              <div class="col-6 pt-4 pb-4 text-white">
+                <p>Hii I'm <b class="site-color-orange fs-4">Thinushan</b>, a seasoned full stack developer with over two years of experience in the field. With a fervor for innovation and problem-solving, I bring expertise in JavaScript, HTML, CSS, PHP, and SQL (MySQL). I've honed my skills working with frameworks such as Laravel, Vue.js, React.js, and Node.js, alongside Express.js for server-side development. Crafting RESTful APIs for seamless data communication is second nature to me.</p>
+                <p>I thrive on mastering new technologies, always eager to dive into the latest tools and frameworks to enhance my skill set. With a passion for learning and a commitment to excellence, I'm dedicated to delivering robust, user-centric solutions that push the boundaries of what's possible in web development.</p>
+                <p>Let's collaborate and bring your ideas to life with cutting-edge solutions tailored to your needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="skill">
+          <div class="col site__bg__grey pt-5 pb-5">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5 pt-4">
+                <h1 class="site-color-orange">__My Programming skill</h1>
+                <div class="short__description text-white">Skilled in JavaScript, HTML, CSS, PHP, and Laravel for web development. Proficient in SQL (MySQL) and experienced with Vue.js and React.js. Eager learner always exploring new technologies.</div>
+              </div>
+              <div class="col-6 pt-4 pb-4">
+                <div class="row align-items-center">
+                  <div 
+                    class="col text-center"
+                  >
+                    <img 
+                      src="assets/images/html.png" 
+                      alt=""
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__html"
+                      data-bs-title="HTML"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/social.png" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__css"
+                      data-bs-title="CSS"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/js.png" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__js"
+                      data-bs-title="javaScript"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/php.png" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__php"
+                      data-bs-title="PHP"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/laravel.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__laravel"
+                      data-bs-title="Laravel"
+                    >
+                  </div>
+                </div>
+                <div class="row mt-5 align-items-center">
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/vue-js.svg" 
+                      alt="" 
+                      height="55" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__vue"
+                      data-bs-title="Vue.Js"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/react.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__react"
+                      data-bs-title="React.Js"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/file-type-node.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__node"
+                      data-bs-title="Node.js"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/express-original.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-title="Express.js"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/mysql-original-wordmark.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__mysql"
+                      data-bs-title="MySQL"
+                    >
+                  </div>
+                </div>
+                <div class="row mt-5 align-items-center">
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/file-type-git.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom p-1"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__git"
+                      data-bs-title="Git (Version Control)"
+                    >
+                  </div>
+                  <div class="col text-center">
+                    <img 
+                      src="assets/images/file-type-light-json.svg" 
+                      alt="" 
+                      height="60" 
+                      class="zoom"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top"
+                      data-bs-custom-class="custom__rest"
+                      data-bs-title="RESTful API"
+                    >
+                  </div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row" id="experience">
+          <div class="col site__bg_dark_blue pt-5 pb-5">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5 pt-4">
+                <h1 class="site-color-orange">__Work Experience</h1>
+              </div>
+              <div class="col-6 pt-4 pb-4">
+                <div class="row">
+                  <div class="col-2 text-center">
+                    <img 
+                      src="assets/images/dot.png" 
+                      alt="" 
+                      height="80" 
+                      class="dot-shadow"
+                    >
+                    <img 
+                      src="assets/images/line.png" 
+                      alt="" 
+                      class="firts__line__heigth"
+                    >
+                  </div>
+                  <div class="col-10 text-white mt-3">
+                    <h2>FullStack Developer</h2>
+                    <div class="row align-items-center">
+                      <div class="row">
+                        <div class="mb-3">
+                          <span class="fs-3 me-2">Monthly Warranty Inc</span>
+                          <span class="site-color-orange small">June 2023 - PRESENT</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Designed and develop web application, portals and reports based on the requirements by adding new features with current system</p>
+                      <p>Creating multiple reports such as sales, invoice, exception, miscellaneous and accounting on a daily, monthly, and annual basis.</p>
+                      <p>Adding warranty feature to multiple CMSs, including Shopify, WooCommerce, Magento, and Yahoo Cart</p>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2 text-center">
+                    <img 
+                      src="assets/images/dot.png" 
+                      alt="" 
+                      height="80" 
+                      class="dot-shadow"
+                    >
+                    <img 
+                      src="assets/images/line.png" 
+                      alt="" 
+                      class="firts__line__heigth"
+                    >
+                  </div>
+                  <div class="col-10 text-white mt-3">
+                    <h2>FullStack Developer</h2>
+                    <div class="row align-items-center">
+                      <div class="row">
+                        <div class="mb-3">
+                          <span class="fs-3 me-2">Digit Web Lanka (Pvt) Ltd</span>
+                          <span class="site-color-orange small">February 2022 - June 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Developed and maintained web applications and websites using PHP / laravel and related technologies Vue.js, React,  Bootstrap, RESTApi.</p>
+                      <p>Develop and maintain Order management, inventory management, Listing management and accounts management for clients in multiple</p>
+                      <p>Implemented security measures to protect data and database encryption</p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="contact">
+          <div class="col site__bg__grey pt-5 pb-5">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5 pt-4 pb-4">
+                <h1 class="site-color-orange">__Contact Me</h1>
+              </div>
+              <div class="col-6 pt-4">
+                <div class="row">
+                  <div class="col-10 mx-auto">
+                    <div class="row">
+                      <div class="col">
+                        <div class="contact__me_box p-3 rounded-2 d-flex">
+                          <div class="me-2">
+                            <img src="assets/images/mail.png" alt="" height="40">
+                          </div>
+                          <div class="contact__fs site-color-orange mt-1">rameshthinushan@gmail.com</div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="contact__me_box p-3 rounded-2 d-flex">
+                          <div class="me-2">
+                            <img src="assets/images/telephone.png" alt="" height="40">
+                          </div>
+                          <div class="contact__fs site-color-orange mt-1">+94 76 325 6327</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-4 mx-auto text-center">
+                    <div class="row">
+                      <div class="col">
+                        <div class="contact__me_box p-3 rounded-2 d-flex">
+                          <div class="me-2">
+                            <img src="assets/images/location.png" alt="" height="40">
+                          </div>
+                          <div class="contact__fs site-color-orange mt-1">Jaffna, SriLanka</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-6 mx-auto">
+                    <div class="row">
+                      <div class="col">
+                        <div class="icon waht__s-app">
+                          <img 
+                            src="assets/images/whatsapp.png" 
+                            alt=""
+                            height="30"
+                          >
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="icon facebook">
+                          <img 
+                            src="assets/images/facebook.png" 
+                            alt=""
+                            height="30"
+                          >
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="icon instgram">
+                          <img 
+                            src="assets/images/instagram.png" 
+                            alt=""
+                            height="30"
+                          >
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="icon linkedin">
+                          <img 
+                            src="assets/images/linkedin.png" 
+                            alt=""
+                            height="30"
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>

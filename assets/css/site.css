@@ -1,0 +1,248 @@
+:root {
+  --site-first-bg-color: #34353a;
+  --site-page-bg-color: #31333b;
+  --site-third-bg-color: #3d3e42;
+  --site-font-color: #ffc86b;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.land__page_heigth {
+  min-height: auto;
+}
+
+.land__page_bg {
+  background: var(--site-first-bg-color);
+}
+
+.site-color-orange {
+  color: var(--site-font-color)
+}
+
+.short__description {
+  font-size: small;
+}
+
+.skii__page_bg {
+  background: var(--site-page-bg-color);
+}
+
+.circle {
+  position: absolute;
+  background: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.site__bg__grey {
+  background: var(--site-third-bg-color);
+}
+
+.site__bg_dark_blue {
+  background: var(--site-page-bg-color);
+}
+
+.experience__container {
+  background: var(--site-third-bg-color);
+}
+
+.firts__line__heigth {
+  width: 60px;
+  height: 250px;
+}
+
+.dot-shadow {
+  filter: drop-shadow(0px 0px 10px #ffc86b);
+}
+
+.inital__name {
+  font-size: 80px;
+}
+
+.btn__downloard-cv {
+  border: 3px solid #f4c069;
+  color: white;
+}
+
+.btn__downloard-cv:hover {
+  background: #ffc86b;
+  box-shadow: 4px -1px 20px 0px #ffc86b;
+}
+
+.profile-image {
+  /* filter: contrast(0.85) !important; */
+  filter: drop-shadow(0px -85px 70px #ffff);
+}
+
+.contact__me_box {
+  background: var(--site-page-bg-color);
+}
+
+.contact__fs {
+  font-size: 20px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--site-page-bg-color);
+  margin: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition:all 0.15s ease;
+}
+
+.waht__s-app:hover {
+  background: #29a71a;
+  /* box-shadow: 1px 2px 20px 0px #29a71a; */
+}
+
+.facebook:hover {
+  background: #4267B2;
+  /* box-shadow: 1px 2px 20px 0px #4267B2; */
+}
+
+.instgram:hover {
+  background-image: 
+    linear-gradient(
+    #8a3ab9,
+    #e95950, 
+    #bc2a8d, 
+    #fccc63
+  );
+  /* box-shadow: 1px 2px 20px 0px #e95950; */
+}
+
+.linkedin:hover {
+  background: #0A66C2;
+  /* box-shadow: 1px 2px 20px 0px #0A66C2; */
+}
+
+.nav-text__color {
+  color: #9f9fa0 !important;
+}
+
+.wrapper {
+  display: grid;
+}
+
+.typing-demo {
+  width: 20ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid var(--site-font-color);
+  font-family: monospace;
+  /* font-size: 2em; */
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.custom__html {
+  --bs-tooltip-bg: #ff4b00;
+  --bs-tooltip-color: white;
+}
+
+.custom__css {
+  --bs-tooltip-bg: #1572b6;
+  --bs-tooltip-color: white;
+}
+
+.custom__js {
+  --bs-tooltip-bg:#ffdf00;
+  --bs-tooltip-color: black;
+}
+
+.custom__php {
+  --bs-tooltip-bg:#777bb3;
+  --bs-tooltip-color: black;
+}
+
+.custom__laravel {
+  --bs-tooltip-bg: #ff2d20;
+  --bs-tooltip-color: white;
+}
+
+.custom__vue {
+  --bs-tooltip-bg: #41b883;
+  --bs-tooltip-color: white;
+}
+
+.custom__react {
+  --bs-tooltip-bg: #00d8ff;
+  --bs-tooltip-color: white;
+}
+
+
+.custom__node {
+  --bs-tooltip-bg: #83cd29;
+  --bs-tooltip-color: white;
+}
+
+.custom__mysql {
+  --bs-tooltip-bg: #036087;
+  --bs-tooltip-color: white;
+}
+
+.custom__git {
+  --bs-tooltip-bg: #dd4c35;
+  --bs-tooltip-color: white;
+}
+
+.custom__rest {
+  --bs-tooltip-bg: #fbc02d;
+  --bs-tooltip-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
