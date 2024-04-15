@@ -6,6 +6,7 @@
   <link rel="icon" type="image/x-icon" href="assets/images/code.png">
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="assets/plugins/jQuery/jquery-3.7.1.min.js"></script>
   <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/site.js" defer></script>
@@ -16,14 +17,16 @@
     <span id="circle" class="circle"></span>
     <div class="row">
       <div class="col body__content">
-
         <div class="row sticky-top">
           <div class="col site__bg__grey">
             <div class="align-items-center p-3 row">
               <div class="col-8">
                 <img src="assets/images/code.png" alt="" height="30">
               </div>
-              <div class="col d-flex">
+              <div class="col d-lg-none text-end text-white">
+                <i class="bi bi-list fs-3"></i>
+              </div>
+              <div class="col d-lg-flex d-none">
                 <div class="w-75">
                   <a 
                     href="#home" 
@@ -68,25 +71,24 @@
             </div>
           </div>
         </div>
-        
         <div class="row" id="home">
           <div class="col site__bg__grey land__page_heigth">
             <div class="row align-items-center">
-              <div class="col">
-                <div>
-                  <span class="text-white fs-3">I'M </span>
-                  <span class="site-color-orange inital__name fw-bold">
+              <div class="col-lg-6 z-1 p-lg-0 p-5 ps-lg-3">
+                <div class="align-items-baseline d-lg-flex">
+                  <div class="text-white fs-3">I'M </div>
+                  <div class="site-color-orange inital__name fw-bold">
                     Thinushan R
-                  </span>
+                  </div>
                 </div>
                 <div class="fs-2 text-white wrapper">
                   <span class="typing-demo">FullStack Developer</span>
                 </div>
-                <div class="mt-4">
+                <div class="mt-4 mb-lg-0 mb-5">
                   <button class="btn pb-3 pe-5 ps-5 pt-3 btn__downloard-cv">Downloard CV</button>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-lg-6 image__position_mobile">
                 <img 
                   src="assets/images/removal.png" 
                   alt="" 
@@ -98,30 +100,30 @@
           </div>
         </div>
         <div class="row" id="about">
-          <div class="col site__bg_dark_blue pt-5 pb-5">
+          <div class="col site__bg_dark_blue pb-lg-5 pt-lg-5 ">
             <div class="row">
-              <div class="col-1"></div>
-              <div class="col-5 pt-4"> 
+              <div class="col-lg-1 d-lg-flex d-none"></div>
+              <div class="col-lg-5 col-md-4 col-12 pt-4"> 
                 <h1 class="site-color-orange">__Who I am</h1>
                 <div class="short__description text-white">Experienced full stack developer passionate about crafting innovative solutions. Skilled in both front-end and back-end technologies, eager to tackle new challenges</div>
               </div> 
-              <div class="col-6 pt-4 pb-4 text-white">
-                <p>Hii I'm <b class="site-color-orange fs-4">Thinushan</b>, a seasoned full stack developer with over two years of experience in the field. With a fervor for innovation and problem-solving, I bring expertise in JavaScript, HTML, CSS, PHP, and SQL (MySQL). I've honed my skills working with frameworks such as Laravel, Vue.js, React.js, and Node.js, alongside Express.js for server-side development. Crafting RESTful APIs for seamless data communication is second nature to me.</p>
-                <p>I thrive on mastering new technologies, always eager to dive into the latest tools and frameworks to enhance my skill set. With a passion for learning and a commitment to excellence, I'm dedicated to delivering robust, user-centric solutions that push the boundaries of what's possible in web development.</p>
+              <div class="col-lg-6 col-md-8 col-12 pt-4 pb-4 text-white">
+                <p class="lh-lg">Hii I'm <b class="site-color-orange fs-4">Thinushan</b>, a seasoned full stack developer with over two years of experience in the field. With a fervor for innovation and problem-solving, I bring expertise in JavaScript, HTML, CSS, PHP, and SQL (MySQL). I've honed my skills working with frameworks such as Laravel, Vue.js, React.js, and Node.js, alongside Express.js for server-side development. Crafting RESTful APIs for seamless data communication is second nature to me.</p>
+                <p class="lh-lg">I thrive on mastering new technologies, always eager to dive into the latest tools and frameworks to enhance my skill set. With a passion for learning and a commitment to excellence, I'm dedicated to delivering robust, user-centric solutions that push the boundaries of what's possible in web development.</p>
                 <p>Let's collaborate and bring your ideas to life with cutting-edge solutions tailored to your needs.</p>
               </div>
             </div>
           </div>
         </div>
         <div class="row" id="skill">
-          <div class="col site__bg__grey pt-5 pb-5">
+          <div class="col site__bg__grey pb-lg-5 pt-lg-5">
             <div class="row">
-              <div class="col-1"></div>
-              <div class="col-5 pt-4">
+              <div class="col-lg-1 d-lg-flex d-none"></div>
+              <div class="col-lg-5 col-md-4 col-12 pt-4">
                 <h1 class="site-color-orange">__My Programming skill</h1>
                 <div class="short__description text-white">Skilled in JavaScript, HTML, CSS, PHP, and Laravel for web development. Proficient in SQL (MySQL) and experienced with Vue.js and React.js. Eager learner always exploring new technologies.</div>
               </div>
-              <div class="col-6 pt-4 pb-4">
+              <div class="col-lg-6 col-md-8 col-12 pt-4 pb-4">
                 <div class="row align-items-center">
                   <div 
                     class="col text-center"
@@ -357,101 +359,271 @@
             </div>
           </div>
         </div>
-        <div class="row" id="contact">
-          <div class="col site__bg__grey pt-5 pb-5">
+        <div class="row">
+          <div class="col site__bg_dark_blue pt-5 pb-5">
             <div class="row">
               <div class="col-1"></div>
-              <div class="col-5 pt-4 pb-4">
-                <h1 class="site-color-orange">__Contact Me</h1>
+              <div class="col-lg-5 pt-4">
+                <h1 class="site-color-orange">__See My Works</h1>
               </div>
-              <div class="col-6 pt-4">
+              <div class="col-lg-6 pt-4 pb-4">
+                <div class="row mb-3">
+                  <div class="col-lg-4">
+                    <div class="site__card_order default-card-site w-100">
+                      <div class="row">
+                        <div class="col fs-3 order-content fw-bold text-white ps-4 pt-3">
+                          <div class="">Order</div>
+                          <div class="">Management</div>
+                        </div>
+                      </div>
+                      <div class="row h-75 align-items-end">
+                        <div class="col text-end order-content pb-3 pe-4">
+                          <button class="btn btn-sm btn-light">
+                             <i class="bi bi-arrow-right"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="site__card_inventory default-card-site w-100">
+                      <div class="row">
+                        <div class="col fs-3 order-content fw-bold text-white ps-4 pt-3">
+                          <div class="">Inventory</div>
+                          <div class="">Management</div>
+                        </div>
+                      </div>
+                      <div class="row h-75 align-items-end">
+                        <div class="col text-end order-content pb-3 pe-4">
+                          <button class="btn btn-sm btn-light">
+                            <i class="bi bi-arrow-right"></i> 
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="site__card_listing default-card-site w-100">
+                      <div class="row">
+                        <div class="col fs-3 order-content fw-bold text-white ps-4 pt-3">
+                          <div class="">Listing</div>
+                          <div class="">Management</div>
+                        </div>
+                      </div>
+                      <div class="row h-75 align-items-end">
+                        <div class="col text-end order-content pb-3 pe-4">
+                          <button class="btn btn-sm btn-light">
+                             <i class="bi bi-arrow-right"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="row">
-                  <div class="col-10 mx-auto">
-                    <div class="row">
-                      <div class="col">
-                        <div class="contact__me_box p-3 rounded-2 d-flex">
-                          <div class="me-2">
-                            <img src="assets/images/mail.png" alt="" height="40">
-                          </div>
-                          <div class="contact__fs site-color-orange mt-1">rameshthinushan@gmail.com</div>
+                  <div class="col-lg-4">
+                    <div class="site__card_accounts default-card-site w-100">
+                      <div class="row">
+                        <div class="col fs-3 order-content fw-bold text-white ps-4 pt-3">
+                          <div class="">Accounts</div>
+                          <div class="">Management</div>
                         </div>
                       </div>
-                      <div class="col">
-                        <div class="contact__me_box p-3 rounded-2 d-flex">
-                          <div class="me-2">
-                            <img src="assets/images/telephone.png" alt="" height="40">
-                          </div>
-                          <div class="contact__fs site-color-orange mt-1">+94 76 325 6327</div>
+                      <div class="row h-75 align-items-end">
+                        <div class="col text-end order-content pb-3 pe-4">
+                          <button class="btn btn-sm btn-light">
+                             <i class="bi bi-arrow-right"></i>
+                          </button>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4"></div>
+                  <div class="col-lg-4"></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="contact">
+          <div class="col site__bg__grey">
+            <div class="row align-items-center contact__me position-relative">
+              <div class="col">
+                <img 
+                  src="assets/images/minus-horizontal-straight-line.png" 
+                  alt=""
+                  height="50"
+                  class="w-100"
+                >
+              </div>
+              <div class="col-3 text-center">
+                <h1 class="site-color-orange">Contact Me</h1>
+              </div>
+              <div class="col">
+                <img 
+                  src="assets/images/minus-horizontal-straight-line.png" 
+                  alt=""
+                  height="50"
+                  class="w-100"
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 mx-auto">
+                <div class="row">
+                  <div class="col">
+                    <div class="contact__me_box p-3 rounded-2 d-flex">
+                      <div class="me-2">
+                        <img 
+                          src="assets/images/telephone.png" 
+                          alt="" 
+                          height="40"
+                          class="me-2"
+                        >
+                      </div>
+                      <div class="contact__fs site-color-orange mt-1">+94 76 325 6327</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div 
+                      class="contact__me_box p-3 rounded-2 d-flex select"
+                      data-bs-toggle="modal" 
+                      data-bs-target="#location"
+                    >
+                      <div class="me-2">
+                        <img 
+                          src="assets/images/location.png" 
+                          alt="" 
+                          height="40"
+                          class="me-2"
+                        >
+                      </div>
+                      <div class="contact__fs site-color-orange mt-1">Jaffna, SriLanka</div>
                     </div>
                   </div>
                 </div>
                 <div class="row mt-3">
-                  <div class="col-4 mx-auto text-center">
+                  <div class="col-lg-8 mx-auto">
                     <div class="row">
                       <div class="col">
-                        <div class="contact__me_box p-3 rounded-2 d-flex">
-                          <div class="me-2">
-                            <img src="assets/images/location.png" alt="" height="40">
+                        <a 
+                          href="https://mail.google.com/mail/?view=cm&fs=1&to=rameshthinushan@gmail.com&su=I Need Your Help" 
+                          target="_blank"
+                          class="text-decoration-none"
+                        >
+                          <div class="contact__me_box p-3 rounded-2 d-flex">
+                            <div class="me-2">
+                              <img 
+                                src="assets/images/mail.png" 
+                                alt="" 
+                                height="40"
+                                class="me-2"
+                              >
+                            </div>
+                            <div class="contact__fs site-color-orange mt-1">rameshthinushan@gmail.com</div>
                           </div>
-                          <div class="contact__fs site-color-orange mt-1">Jaffna, SriLanka</div>
-                        </div>
+                        </a>
+
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row mt-4">
-                  <div class="col-6 mx-auto">
-                    <div class="row">
-                      <div class="col">
-                        <div class="icon waht__s-app">
-                          <img 
-                            src="assets/images/whatsapp.png" 
-                            alt=""
-                            height="30"
-                          >
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="icon facebook">
-                          <img 
-                            src="assets/images/facebook.png" 
-                            alt=""
-                            height="30"
-                          >
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="icon instgram">
-                          <img 
-                            src="assets/images/instagram.png" 
-                            alt=""
-                            height="30"
-                          >
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="icon linkedin">
-                          <img 
-                            src="assets/images/linkedin.png" 
-                            alt=""
-                            height="30"
-                          >
-                        </div>
-                      </div>
+              </div>
+            </div>
+            <div class="align-items-center position-relative row socal-media">
+              <div class="col">
+                <img 
+                  src="assets/images/minus-horizontal-straight-line.png" 
+                  alt=""
+                  height="50"
+                  class="w-100"
+                >
+              </div>
+              <div class="col-2 text-center">
+                <div class="row">
+                  <div class="col d-flex">
+                    <div class="w-100">
+                      <a 
+                        href="https://wa.me/940763256327?text=I%20need%20your%20help"
+                        target="_blank"
+                      >
+                        <img 
+                          src="assets/images/whatsapp.png" 
+                          alt=""
+                          height="30"
+                        >
+                      </a>
+                    </div>
+                    <div class="w-100">
+                      <img 
+                        src="assets/images/facebook.png" 
+                        alt=""
+                        height="30"
+                      >
+                    </div>
+                    <div class="w-100">
+                      <img 
+                        src="assets/images/instagram.png" 
+                        alt=""
+                        height="30"
+                      >
+                    </div>
+                    <div class="w-100">
+                      <img 
+                        src="assets/images/linkedin.png" 
+                        alt=""
+                        height="30"
+                      >
                     </div>
                   </div>
                 </div>
-                
+              </div>
+              <div class="col">
+                <img 
+                  src="assets/images/minus-horizontal-straight-line.png" 
+                  alt=""
+                  height="50"
+                  class="w-100"
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col site__bg_dark_blue pt-5 pb-5 text-center">
+            <h1 class="font-monospace pb-5 pt-5 site-color-orange">< Thanks for Scrolling /></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--location modal-->
+    <div>
+      <div class="modal fade" id="location" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content rounded-0">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">My Location</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col text-center">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d584.6940654035064!2d80.01980273659927!3d9.652206112097982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1712940494332!5m2!1sen!2slk"
+                    class="my__location w-100 border border-warning" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </div>
 </body>
 </html>
+

@@ -221,6 +221,102 @@ html, body {
   --bs-tooltip-color: white;
 }
 
+.contact__me {
+  bottom: 30px;
+}
+
+.socal-media {
+  top: 25px;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.my__location {
+  height: 300px;
+}
+
+.default-card-site {
+  height: 370px;
+  border-radius: 10px;
+  transition: background 0.8s;
+}
+
+.site__card_order {
+  background: url('../images/order-management.jpg') center center no-repeat;
+  background-size: 300px ;
+}
+
+.site__card_inventory {
+  background: url('../images/inventory.jpg') center center no-repeat;
+  background-size: 300px ;
+}
+
+.site__card_listing {
+  background: url('../images/listing-management.jpg') center center no-repeat;
+  background-size: 300px ;
+}
+
+.site__card_accounts {
+  background: url('../images/accounts-management.jpg') center center no-repeat;
+  background-size: 300px ;
+}
+
+.order-content {
+  opacity: 0;
+}
+
+.site__card_order:hover {
+  background: url('../images/order-management.jpg') left center no-repeat;
+  background-size: 600px ;
+}
+
+.site__card_inventory:hover {
+  background: url('../images/inventory.jpg') left center no-repeat;
+  background-size: 700px ;
+}
+
+.site__card_listing:hover {
+  background: url('../images/listing-management.jpg') left center no-repeat;
+  background-size: 600px ;
+}
+
+.site__card_accounts:hover {
+  background: url('../images/accounts-management.jpg') left center no-repeat;
+  background-size: 600px ;
+}
+
+.default-card-site:hover .order-content {
+  opacity: 1;
+  filter: drop-shadow(4px 0px 9px black);
+}
+
+.card__btn {
+  background: #6528e0;
+}
+
+.card__btn:hover {
+  background: #fdc76b;
+  box-shadow: 0px 0px 40px 10px #fdc76b;
+}
+
+@media only screen and (max-width: 768px) {
+  .image__position_mobile {
+    position: absolute;
+    top: 112px;
+  }
+
+  .profile-image {
+    height: 330px !important;
+    filter: opacity(0.3) !important;
+  }
+  
+  
+  .inital__name {
+    font-size: 50px;
+  }
+}
 
 
 
