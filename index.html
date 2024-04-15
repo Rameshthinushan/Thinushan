@@ -12,65 +12,62 @@
   <script src="assets/js/site.js" defer></script>
   <title>Thinushan</title>
 </head>
-<body>
+<body class="site__bg__grey">
   <div class="container-fluid">
     <span id="circle" class="circle"></span>
     <div class="row">
       <div class="col body__content">
-        <div class="row sticky-top">
-          <div class="col site__bg__grey">
-            <div class="align-items-center p-3 row">
-              <div class="col-8">
-                <img src="assets/images/code.png" alt="" height="30">
-              </div>
-              <div class="col d-lg-none text-end text-white">
-                <i class="bi bi-list fs-3"></i>
-              </div>
-              <div class="col d-lg-flex d-none">
-                <div class="w-75">
-                  <a 
-                    href="#home" 
-                    class="text-decoration-none site-color-orange" 
-                    id="nav-home"
-                    onclick="active('home', ['about', 'skill', 'experience', 'contact'])"
-                  >Home</a>
+        <nav class="sticky-top">
+          <div class="row">
+            <div class="col m-2 rounded-1" id="nav--bar">
+              <div class="align-items-center p-3 row">
+                <div class="col-8">
+                  <img src="assets/images/code.png" alt="" height="30">
                 </div>
-                <div class="w-75">
-                  <a 
-                    href="#about" 
-                    class="text-decoration-none nav-text__color"
-                    id="nav-about"
-                    onclick="active('about', ['home', 'skill', 'experience', 'contact'])"
-                  >About</a>
+                <div class="col d-lg-none text-end text-white">
+                  <i class="bi bi-list fs-3"></i>
                 </div>
-                <div class="w-75">
-                  <a 
-                    href="#skill" 
-                    class="text-decoration-none nav-text__color"
-                    id="nav-skill"
-                    onclick="active('skill', ['home', 'about', 'experience', 'contact'])"
-                  >Skill</a>
-                </div>
-                <div class="w-100">
-                  <a 
-                    href="#experience" 
-                    class="text-decoration-none nav-text__color"
-                    id="nav-experience"
-                    onclick="active('experience', ['home', 'about', 'skill', 'contact'])"
-                  >Experience</a>
-                </div>
-                <div class="w-100">
-                  <a 
-                    href="#contact" 
-                    class="text-decoration-none nav-text__color"
-                    id="nav-contact"
-                    onclick="active('contact', ['home', 'about', 'skill', 'experience'])"
-                  >Contact</a>
+                <div class="col d-lg-flex d-none">
+                  <div class="w-75">
+                    <a href="#home" class="text-decoration-none site-color-orange" id="nav-home" onclick="active('home', ['about', 'skill', 'experience', 'contact'])">Home</a>
+                  </div>
+                  <div class="w-75">
+                    <a 
+                      href="#about" 
+                      class="text-decoration-none nav-text__color"
+                      id="nav-about"
+                      onclick="active('about', ['home', 'skill', 'experience', 'contact'])"
+                    >About</a>
+                  </div>
+                  <div class="w-75">
+                    <a 
+                      href="#skill" 
+                      class="text-decoration-none nav-text__color"
+                      id="nav-skill"
+                      onclick="active('skill', ['home', 'about', 'experience', 'contact'])"
+                    >Skill</a>
+                  </div>
+                  <div class="w-100">
+                    <a 
+                      href="#experience" 
+                      class="text-decoration-none nav-text__color"
+                      id="nav-experience"
+                      onclick="active('experience', ['home', 'about', 'skill', 'contact'])"
+                    >Experience</a>
+                  </div>
+                  <div class="w-100">
+                    <a 
+                      href="#contact" 
+                      class="text-decoration-none nav-text__color"
+                      id="nav-contact"
+                      onclick="active('contact', ['home', 'about', 'skill', 'experience'])"
+                    >Contact</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </nav>
         <div class="row" id="home">
           <div class="col site__bg__grey land__page_heigth">
             <div class="row align-items-center">
@@ -92,7 +89,7 @@
                 <img 
                   src="assets/images/removal.png" 
                   alt="" 
-                  height="700"
+                  height="610"
                   class="profile-image"
                 >
               </div>
@@ -125,163 +122,71 @@
               </div>
               <div class="col-lg-6 col-md-8 col-12 pt-4 pb-4">
                 <div class="row align-items-center">
-                  <div 
-                    class="col text-center"
-                  >
-                    <img 
-                      src="assets/images/html.png" 
-                      alt=""
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__html"
-                      data-bs-title="HTML"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__html" data-bs-title="HTML">
+                      <img src="assets/images/html.png" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/social.png" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__css"
-                      data-bs-title="CSS"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__css" data-bs-title="CSS">
+                      <img src="assets/images/social.png" alt="" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/js.png" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__js"
-                      data-bs-title="javaScript"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__js" data-bs-title="javaScript">
+                      <img src="assets/images/js.png" alt="" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/php.png" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__php"
-                      data-bs-title="PHP"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__php" data-bs-title="PHP">
+                      <img src="assets/images/php.png" alt="" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/laravel.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__laravel"
-                      data-bs-title="Laravel"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__laravel" data-bs-title="Laravel">
+                      <img src="assets/images/laravel.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                </div>
-                <div class="row mt-5 align-items-center">
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/vue-js.svg" 
-                      alt="" 
-                      height="55" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__vue"
-                      data-bs-title="Vue.Js"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__vue" data-bs-title="Vue.Js">
+                      <img src="assets/images/vue-js.svg" height="55" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/react.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__react"
-                      data-bs-title="React.Js"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__react" data-bs-title="React.Js">
+                      <img src="assets/images/react.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/file-type-node.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__node"
-                      data-bs-title="Node.js"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__node" data-bs-title="Node.js">
+                      <img src="assets/images/file-type-node.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/express-original.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-title="Express.js"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Express.js">
+                      <img src="assets/images/express-original.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/mysql-original-wordmark.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__mysql"
-                      data-bs-title="MySQL"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__mysql" data-bs-title="MySQL">
+                      <img src="assets/images/mysql-original-wordmark.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                </div>
-                <div class="row mt-5 align-items-center">
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/file-type-git.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom p-1"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__git"
-                      data-bs-title="Git (Version Control)"
-                    >
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__rest" data-bs-title="RESTful API">
+                      <img src="assets/images/file-type-light-json.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col text-center">
-                    <img 
-                      src="assets/images/file-type-light-json.svg" 
-                      alt="" 
-                      height="60" 
-                      class="zoom"
-                      data-bs-toggle="tooltip" 
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom__rest"
-                      data-bs-title="RESTful API"
-                    >
+
+                  <div class="col-lg-2 col-md-3 col-6 text-center mb-4">
+                    <div class="site__bg_dark_blue p-3 rounded-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom__git" data-bs-title="Git (Version Control)">
+                      <img src="assets/images/file-type-git.svg" height="60" class="zoom" />
+                    </div>
                   </div>
-                  <div class="col"></div>
-                  <div class="col"></div>
-                  <div class="col"></div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
         <div class="row" id="experience">
           <div class="col site__bg_dark_blue pt-5 pb-5">
@@ -360,7 +265,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col site__bg_dark_blue pt-5 pb-5">
+          <div class="col site__bg__grey pt-5 pb-5">
             <div class="row">
               <div class="col-1"></div>
               <div class="col-lg-5 pt-4">
@@ -448,7 +353,7 @@
           </div>
         </div>
         <div class="row" id="contact">
-          <div class="col site__bg__grey">
+          <div class="col site__bg_dark_blue">
             <div class="row align-items-center contact__me position-relative">
               <div class="col">
                 <img 
@@ -592,7 +497,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col site__bg_dark_blue pt-5 pb-5 text-center">
+          <div class="col site__bg__grey pt-5 pb-5 text-center">
             <h1 class="font-monospace pb-5 pt-5 site-color-orange">< Thanks for Scrolling /></h1>
           </div>
         </div>

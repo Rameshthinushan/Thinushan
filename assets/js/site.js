@@ -15,6 +15,26 @@ $(document).ready(() => {
     yp += ((mouseY - yp)/6);
     $("#circle").css({left: xp +'px', top: yp +'px'});
   }, 20);
+
+  $(window).scroll(function(){
+    // sticky navbar on scroll script
+    if(this.scrollY > 20){
+      console.log('big 20')
+        $('#nav--bar').addClass("nav__");
+    }else{
+      $('#nav--bar').removeClass("nav__");
+       // $('.navbar').removeClass("sticky");
+       console.log('small 20')
+    }
+    
+    // // scroll-up button show/hide script
+    // if(this.scrollY > 500){
+    //     $('.scroll-up-btn').addClass("show");
+    // }else{
+    //     $('.scroll-up-btn').removeClass("show");
+    // }
+});
+
 })
 
 
